@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+*{
+    font-family: "League Spatan";
+    font-size: 15px;
+    padding: 0px;
+    margin: 0px;
+}
+
+@media screen and (max-width: 1024px) {
+    
+    body {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .titre {
+        text-align: center;
+        font-size: 35px;
+        /* width: 19rem; */
+        padding: 20px 45px;
+        color: hsl(300, 43%, 22%);
+    }
+
+    .deusieme-titre {
+        text-align: center;
+        color: hsl(333, 80%, 67%);
+        font-size: 21px;
+        padding-bottom: 15px;
+        padding-inline: 11px;
+    }
+
+    .stars {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 10px;
+        column-gap: 10px;
+    }
+
+    .stars .buttom {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 13px;
+        width: 23rem;
+        height: 60px;
+        background-color: hsl(300, 24%, 96%);
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .buttom p {
+        color: hsl(300, 43%, 22%);
+        font-size: 19px;
+        margin: auto;
+    }
+
+    .etoiles {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 13rem;
+        justify-content: space-evenly;
+    }
+       /******profiles*******/
+    .profiles {
+        margin: 20px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 20px;
+    }
+       /******1******/
+    .profil-1 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        background-color: hsl(300, 43%, 22%);
+        border-radius: 5px;
+
+        width: 23rem;
+        padding: 25px 30px;
+        gap: 20px;    /*change it !!!*/
+        height: 11rem;
+    }
+
+    .profil-1 .everythings {
+        background-image: url(./images/image-colton.jpg);
+        background-repeat: no-repeat;
+        /* background-position: left; */
+        width: 60px;
+        height: 60px;
+        border-radius: 60px;
+        background-size: cover;
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        justify-content: space-around;        
+    }
+
+    .text-1 {
+        font-size: 21px;
+        width: 200px;
+        position: relative;
+        left: 90px;
+        top: 7px;
+    }
+
+    #t1 {
+        color: white;
+    }
+    
+    #t2 {
+        color: hsl(333, 80%, 67%);
+    }
+
+    .text-2 #t3 {
+        width: 22rem;
+        position: relative;
+        right: 10px;
+        color: white;
+        top: 3rem;
+        text-align: center;
+    }
+
+    /********2*********/
+    .profil-2 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        background-color: hsl(300, 43%, 22%);
+        border-radius: 5px;
+
+        width: 23rem;
+        padding: 25px 30px;
+        gap: 20px;   /*change it !!!*/
+        height: 11rem;
+    }
+
+    .profil-2 .everythings {
+        background-image: url(./images/image-irene.jpg);
+        background-repeat: no-repeat;
+        /* background-position: left; */
+        width: 60px;
+        height: 60px;
+        border-radius: 60px;
+        background-size: cover;
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        justify-content: space-around;        
+    }
+
+    .text-1 {
+        font-size: 21px;
+        width: 200px;
+        position: relative;
+        left: 90px;
+        top: 7px;
+    }
+
+    #t1 {
+        color: white;
+    }
+    
+    #t2 {
+        color: hsl(333, 80%, 67%);
+    }
+
+    .text-2 #t3 {
+        width: 22rem;
+        position: relative;
+        right: 10px;
+        color: white;
+        top: 3rem;
+        text-align: center;
+    }
+    /*********3**********/
+    .profil-3 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        background-color: hsl(300, 43%, 22%);
+        border-radius: 5px;
+
+        width: 23rem;
+        padding: 25px 30px;
+        gap: 20px;    /*change it !!!*/
+        height: 11rem;
+    }
+
+    .profil-3 .everythings {
+        background-image: url(./images/image-anne.jpg);
+        background-repeat: no-repeat;
+        /* background-position: left; */
+        width: 60px;
+        height: 60px;
+        border-radius: 60px;
+        background-size: cover;
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        justify-content: space-around;        
+    }
+
+    .text-1 {
+        font-size: 21px;
+        width: 200px;
+        position: relative;
+        left: 90px;
+        top: 7px;
+    }
+
+    #t1 {
+        color: white;
+    }
+    
+    #t2 {
+        color: hsl(333, 80%, 67%);
+    }
+
+    .text-2 #t3 {
+        width: 22rem;
+        position: relative;
+        right: 10px;
+        color: white;
+        top: 3rem;
+        text-align: center;
+    }
+
+    .attribution {
+        margin: 25px; 
+        border-bottom: solid 1px black;
+        border-radius: 1px;
+    }
+}
